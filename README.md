@@ -33,7 +33,11 @@ At 1 mn steps, performance drops massively:
 
 ![rl-video-step-1000000-to-step-1000400-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/c422e04e-1b0b-4885-a6b5-3ecc5e124a9d)
 
-Seems like the agent is forgetting what it learned at the end of the exploration phase. Next experiments: Same approach with more exploration. If this doesn't work, I might try a different policy (algorithm), e.g. PPO.
+Seems like the agent is forgetting what it learned at the end of the exploration phase. 
+
+Next steps: 
+- Same approach, but longer exploration phase
+- In case that doesn't work: Trying a more sophisticated policy (algorithm), e.g. PPO.
 
 
 References:

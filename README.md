@@ -35,10 +35,11 @@ At 1 mn steps, performance drops massively:
 
 ![rl-video-step-1000000-to-step-1000400-ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/c422e04e-1b0b-4885-a6b5-3ecc5e124a9d)
 
-Conclusion: Agent learns well during exploration phase (first 100 k timesteps) and then forgets, unable to optimize further.
+### Conclusion: 
+Agent learns well during exploration phase (first 100 k timesteps) and then forgets, unable to optimize further.
 
-Next steps: 
-- Same approach, but longer exploration phase
+### Next steps: 
+- Refine DQN approach with better parameters, e.g. longer exploration phase, different buffer etc.
 - In case that doesn't work: Trying a more sophisticated policy (algorithm), e.g. PPO.
 
 

@@ -15,7 +15,7 @@ Applying a Deep Q-Network (DQN) algorithm, which uses deep neural networks to ap
 - Default model parameters
 - Minimal tuning to reward behaviors like fuel seeking and to penalize loss of life (see custom environment wrapper)
 - Training for 1mn timesteps (frames) / ~40k episodes on SageMaker AI using NVIDIA T4 GPU instance
-- Logging and monitoring using Weights & Biases (wandb.ai)
+- Logging and monitoring using wandb.ai
 
 ### Results:
 

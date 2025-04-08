@@ -19,7 +19,7 @@ Applying a Deep Q-Network (DQN) algorithm, which uses deep neural networks to ap
 
 ### Results:
 
-**Key metric 1: Mean episode reward** measures the average game score the agent has achieved in the training episodes. It peaked initially and then declined, with a gentle improvement towards the end of training.
+**Key metric 1: Mean episode reward** measures the average game score the agent has achieved in the training episodes. It peaked initially and then declined, with a gentle improvement towards the end of training, suggesting initial learned behaviors were lost.
 
 ![W B Chart 08_04_2025, 15_37_42 (1)](https://github.com/user-attachments/assets/d80e979d-f48e-4afb-ac20-364ebef59ac5)
 

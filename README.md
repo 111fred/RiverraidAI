@@ -1,4 +1,4 @@
-# Training an agent to play Riverraid with Reinforcement Learning (RL)
+# Training an agent to play River Raid with Reinforcement Learning (RL)!
 
 This repository explores reinforcement learning algorithms and optimization techniques which can be applied to train a virtual agent to play the Atari Game Riverraid: https://en.wikipedia.org/wiki/River_Raid
 

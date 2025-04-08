@@ -10,8 +10,11 @@ Riverraid is a "shoot 'em up" game from the 80s. The player controls a fighter j
 
 Applying a Deep Q-Network (DQN) algorithm, which uses deep neural networks to approximate the Q-value function, enabling agents to learn optimal policies in complex environments with discrete action spaces. 
 
-- Using default parameters and training for 1mn episodes in SageMaker AI using NVIDIA T4 GPU instance
-- Minimal tuning to reward behaviors like fuel seeking and to penalize life loss
+- Using Gymnasium environment
+- Using Stablebaselines3 library for DQN implementation
+- Default model parameters
+- Minimal tuning to reward behaviors like fuel seeking and to penalize loss of life
+- Training for 1mn episodes on SageMaker AI using NVIDIA T4 GPU instance
 - Logging and monitoring using Weights & Biases (wandb.ai)
 
 ### Results:

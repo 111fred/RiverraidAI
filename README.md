@@ -20,9 +20,11 @@ Applying a Deep Q-Network (DQN) algorithm, which uses deep neural networks to ap
 ### Results:
 
 **Key metric 1: Mean episode reward** measures the average game score the agent has achieved in the training episodes. It peaked initially and then declined, with a gentle improvement towards the end of training.
+
 ![W B Chart 08_04_2025, 15_37_42 (1)](https://github.com/user-attachments/assets/d80e979d-f48e-4afb-ac20-364ebef59ac5)
 
 **Key metric 2: Mean episode length** denotes the average duration of a gameplay, until all three lives are lost. As you can see, it follows a similar curve as metric 1.
+
 ![W B Chart 08_04_2025, 15_37_49 (1)](https://github.com/user-attachments/assets/79571dd8-6ff9-410a-ac2e-dba84a9e901f)
 
 At 100000 steps, the agent seems to be doing quite well, saving fuel, hitting targets, and avoiding collision:

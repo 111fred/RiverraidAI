@@ -8,7 +8,7 @@ Riverraid is a "shoot 'em up" game from the 80s. The player controls a fighter j
 
 ### Initial approach
 
-Applying a Deep Q-Network (DQN) algorithm, which uses deep neural networks to approximate the Q-value function, enabling agents to learn optimal policies in complex environments with discrete action spaces. 
+Applying a Deep Q-Network (DQN) algorithm, which uses deep neural networks to approximate the Q-value function, enabling agents to learn optimal behavior in complex environments with discrete action spaces. 
 
 - Using Gymnasium environment
 - Using Stablebaselines3 library for DQN implementation
